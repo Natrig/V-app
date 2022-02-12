@@ -2,6 +2,7 @@
     border: 1px solid slategray;
     padding: 10px 25px;
     width: 300px;
+    overflow: auto;
 }
 
 .header {
