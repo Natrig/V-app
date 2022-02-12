@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "incremental": true,
+    "target": "ESNEXT",
+    "module": "ESNext",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "outDir": "./build",
+    "baseUrl": "src",
+    "rootDir": "./src",
+    "composite": true,
+    "tsBuildInfoFile": "./",
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src"
+  ]
+}

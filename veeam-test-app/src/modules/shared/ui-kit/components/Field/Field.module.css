@@ -1,0 +1,13 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.root > label {
+    margin-right: 15px;
+}
+
+.root > input, .root > textarea {
+    width: 200px;
+}

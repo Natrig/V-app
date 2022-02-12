@@ -1,0 +1,14 @@
+.root {
+    width: 450px;
+    height: 450px;
+}
+
+.root > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.jsonEditor > textarea {
+    height: 400px;
+    width: 450px !important;
+}

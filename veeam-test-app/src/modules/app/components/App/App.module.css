@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 500px;
+  overflow: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

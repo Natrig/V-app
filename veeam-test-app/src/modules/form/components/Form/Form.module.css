@@ -1,0 +1,10 @@
+.root {
+    border: 1px solid slategray;
+    padding: 10px 25px;
+    width: 300px;
+}
+
+.header {
+    border-bottom: 1px solid slategray;
+    text-align: center;
+}

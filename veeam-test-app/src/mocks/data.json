@@ -1,0 +1,51 @@
+{
+  "title":"Test form",
+  "fields":[
+    {
+      "name":"count",
+      "label":"count",
+      "type":"number"
+    },
+    {
+      "name":"name",
+      "label":"name",
+      "type":"text"
+    },
+    {
+      "name":"description",
+      "label":"description",
+      "type":"textarea"
+    },
+    {
+      "name":"editable",
+      "label":"is Editable",
+      "type":"checkbox",
+      "checked":true
+    },
+    {
+      "name":"date",
+      "label":"date of",
+      "type":"date"
+    },
+    {
+      "name":"gender",
+      "label":"gender",
+      "type":"radio",
+      "optionValues":[
+        "male",
+        "female",
+        "other"
+      ]
+    }
+  ],
+  "controls":[
+    {
+      "label":"ok",
+      "type":"confirm"
+    },
+    {
+      "label":"back",
+      "type":"cancel"
+    }
+  ]
+}
